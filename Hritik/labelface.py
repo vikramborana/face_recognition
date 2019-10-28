@@ -7,11 +7,11 @@ import numpy as np
 
 # Load a sample picture and learn how to recognize it.
 hritik_image = face_recognition.load_image_file("./know/hritik.jpg")
-obama_face_encoding = face_recognition.face_encodings(obama_image)[0]
+hritik_face_encoding = face_recognition.face_encodings(hritik_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
 vishal_image = face_recognition.load_image_file("./know/vishal.jpg")
-biden_face_encoding = face_recognition.face_encodings(biden_image)[0]
+vishal_face_encoding = face_recognition.face_encodings(vishal_image)[0]
 
 vikram_image = face_recognition.load_image_file("./know/vikram.jpg")
 vikram_face_encoding = face_recognition.face_encodings(vikram_image)[0]
@@ -34,7 +34,7 @@ known_face_names = [
 ]
 
 # Load an image with an unknown face
-unknown_image = face_recognition.load_image_file("15.jpeg")
+unknown_image = face_recognition.load_image_file("14.jpeg")
 
 # Find all the faces and face encodings in the unknown image
 face_locations = face_recognition.face_locations(unknown_image)

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662477437249",
+    "firebase_url": "https://bionic-aspect-240414.firebaseio.com",
+    "project_id": "bionic-aspect-240414",
+    "storage_bucket": "bionic-aspect-240414.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662477437249:android:5c358aade456b8695e89c0",
+        "android_client_info": {
+          "package_name": "com.example.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662477437249-79v1bi0e3grrd874qg535h2a1rtt3nhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testapp",
+            "certificate_hash": "4dae02febece323c93d0e23cc9468b3aa5aff664"
+          }
+        },
+        {
+          "client_id": "662477437249-vttj26r7esjljnm9jgkr7r49jlacluta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwi5W-LTM3f1t1gvAAvkwoye2HV-qZxQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662477437249-vttj26r7esjljnm9jgkr7r49jlacluta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
